@@ -9,14 +9,13 @@
   {
     "js": ["lib/jquery-3.1.1.min.js","options.js"],
     "matches": ["https://banking.ing-diba.de/*"]
-  },{
+  }, {
+    "js": ["account_switch.js", "template_selector.js"],
+    "matches": ["https://banking.ing-diba.de/app/*"]
+  }, {
     "css": ["styles.css"],
     "js": ["kontenuebersicht.js"],
     "matches": ["https://banking.ing-diba.de/app/obligo*"]
-  },{
-    "js": ["umsatzanzeige.js"],
-    "matches": ["https://banking.ing-diba.de/app/umsatzanzeige*"]
   }]
- 
 }
 
