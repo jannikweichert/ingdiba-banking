@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
  
-  "name": "Account names for Ing-DiBa",
+  "name": "Ing-DiBa+",
   "version": "0.1.0",
-  "description": "Account names for Ing-DiBa",
+  "description": "adds some features to the online banking of ing-diba.de",
  
   "content_scripts": [
   {
