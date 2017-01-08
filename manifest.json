@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Account names for Ing-DiBa",
+  "version": "0.1.0",
+  "description": "Account names for Ing-DiBa",
+ 
+  "content_scripts": [
+  {
+    "js": ["lib/jquery-3.1.1.min.js","options.js"],
+    "matches": ["https://banking.ing-diba.de/*"]
+  },{
+    "css": ["styles.css"],
+    "js": ["kontenuebersicht.js"],
+    "matches": ["https://banking.ing-diba.de/app/obligo*"]
+  },{
+    "js": ["umsatzanzeige.js"],
+    "matches": ["https://banking.ing-diba.de/app/umsatzanzeige*"]
+  }]
+ 
+}
+

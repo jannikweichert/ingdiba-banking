@@ -1,0 +1,10 @@
+accounts = [
+{
+    name: "Hauptkonto",
+    number: "540xxxxxxx"
+},
+{
+    name: "Gehaltskonto",
+    number: "541xxxxxxx"
+}
+]; 
